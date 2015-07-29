@@ -6,6 +6,7 @@ unzip("getdata_files.zip")
 activities <-read.table("UCI HAR Dataset/activity_labels.txt")
 features <-read.table("UCI HAR Dataset/features.txt")
 View(features)
+# Metacharacters: .means any character   *means any number of times   |means or 
 varnames<-grep(".*mean.*|.*std.*",features$V2,value=TRUE)
 View(varnames)
 varnames = gsub('-mean', 'mean', varnames)
