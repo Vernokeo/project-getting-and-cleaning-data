@@ -1,3 +1,5 @@
+Thge Code book provides information on the average and standard deviation of the 79 measurements by the 6 activities
+
 Activities
 WALKING
 WALKING_UPSTAIRS
@@ -87,6 +89,6 @@ fBodyBodyGyroMagMeanFreq
 fBodyBodyGyroJerkMagMean
 fBodyBodyGyroJerkMagStd
 fBodyBodyGyroJerkMagMeanFreq
-NA
+
 
 
